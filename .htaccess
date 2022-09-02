@@ -1,8 +1,8 @@
 Options -MultiViews
 
-#rewrite the request_filename to index.php?url=...
+RewriteEngine On
 
-RewrieEngine On
+RewriteBase /
 
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
